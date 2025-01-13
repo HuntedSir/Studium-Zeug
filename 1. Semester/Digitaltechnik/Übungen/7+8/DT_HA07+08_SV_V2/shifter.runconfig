@@ -1,0 +1,5 @@
+shifter.sv multiplexer.sv shifter_tb.sv
+shifter_sol.sv multiplexer_sol.sv shifter_tb.sv
+shifter.sv multiplexer_sol.sv shifter_tb_full.sv
+shifter_sol.sv multiplexer_sol.sv shifter_tb_full.sv
+

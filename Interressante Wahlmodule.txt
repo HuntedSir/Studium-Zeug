@@ -1,0 +1,4 @@
+20-00-1075  Verteilte Geometrieverarbeitung
+20-00-0735  Grundlagen der Robotik
+20-00-0014  Visual Computing
+20-00-0433  Natural Language Processing and the Web

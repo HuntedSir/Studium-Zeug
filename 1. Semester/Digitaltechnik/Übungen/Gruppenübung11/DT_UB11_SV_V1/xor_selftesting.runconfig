@@ -1,0 +1,5 @@
+xor.sv xor_selftesting_tb.sv
+xor_sol.sv xor_selftesting_tb_sol.sv
+xor.sv xor_selftesting_tb.sv
+xor_sol.sv xor_selftesting_tb_sol.sv
+

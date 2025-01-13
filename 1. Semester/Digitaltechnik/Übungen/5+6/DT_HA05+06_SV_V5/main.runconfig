@@ -1,0 +1,5 @@
+main.sv magic.sv main_tb.sv
+main_sol.sv magic.sv main_tb.sv
+main.sv magic.sv main_tb_full.sv
+main_sol.sv magic.sv main_tb_full.sv
+

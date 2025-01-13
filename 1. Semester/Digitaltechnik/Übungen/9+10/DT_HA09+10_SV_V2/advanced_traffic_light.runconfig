@@ -1,0 +1,5 @@
+advanced_traffic_light.sv traffic_light.sv advanced_traffic_light_tb.sv
+advanced_traffic_light_sol.sv traffic_light_sol.sv advanced_traffic_light_tb.sv
+advanced_traffic_light.sv traffic_light.sv advanced_traffic_light_tb_full.sv
+advanced_traffic_light_sol.sv traffic_light_sol.sv advanced_traffic_light_tb_full.sv
+
