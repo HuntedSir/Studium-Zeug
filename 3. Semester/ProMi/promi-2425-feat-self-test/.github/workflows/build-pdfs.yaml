@@ -1,0 +1,31 @@
+name: build documents
+on:
+  push:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v4
+
+      - name: get images
+        run: |
+          ./download-images.sh
+
+      - name: build pdfs
+        run: |
+          typst c chap1.typ
+          typst c chap2.typ
+          typst c chap3.typ
+          typst c chap4.typ
+          typst c chap5.typ
+
+      - name: upload pdfs
+        uses: actions/upload-artifact@v4
+        # always upload, even if building fails
+        if: "success() || failure()"
+        with:
+          name: promi-pdfs
+          path: "*.pdf"
